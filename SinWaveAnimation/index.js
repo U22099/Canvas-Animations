@@ -20,7 +20,7 @@ function animate(){
     canvas.moveTo(0, HtmlCanvas.height/2);
 
     for (let i = 0; i < HtmlCanvas.width; i++) {
-        const yEqn = HtmlCanvas.height / 2 + Math.sin((i / 100) + frequency) * 150  * Math.abs(Math.sin(i))
+        const yEqn = HtmlCanvas.height / 2 + Math.sin((i / 100) + frequency) * 150  * Math.abs(Math.sin(frequency))
         canvas.lineTo(i, yEqn);
         
     }
