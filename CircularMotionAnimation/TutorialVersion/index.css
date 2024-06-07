@@ -31,3 +31,9 @@ p{
         top: 30%;
     }
 }
+
+@media (max-width: 615px){
+	p{
+		display: none;
+	}
+}
