@@ -1,9 +1,9 @@
 body,canvas{
     margin: 0px;
 }
-canvas:hover{
+/* canvas:hover{
     cursor: pointer;
-}
+} */
 p{
     /*display: none*/
     width: max-content;
@@ -11,10 +11,10 @@ p{
     position: absolute;
     top: 30%;
     left: 50%;
-    font-size: 4em;
+    font-size: 3em;
     font-family: monospace;
     color: red;
-    font-weight: 700;
+    font-weight: 500;
     transform: translate(-50%, -50%);
     animation: fadeJump ease 3s forwards;
 }
@@ -30,4 +30,10 @@ p{
         transform: scale(1) translate(-50%, -50%);
         top: 30%;
     }
+}
+
+@media (max-width: 615px){
+	p{
+		display: none;
+	}
 }
