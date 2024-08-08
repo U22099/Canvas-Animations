@@ -13,10 +13,10 @@ div{
 	background: lightgray;
 	padding: 20px;
 	border-radius: 20px;
-	box-shadow: inset 5px 5px 5px 2px rgba(0,0,0,0.2),inset 0px 300px 1px 0px rgba(0,0,0,0.05);
+	box-shadow: inset 5px 5px 5px 2px rgba(0,0,0,0.2),inset 0px 70vh 2px 0px rgba(0,0,0,0.05);
 	cursor: pointer;
-	height: 200px;
-	width: 150px;
+	height: 50vh;
+	width: 40vw;
 	transition: 1s ease;
 }
 div:hover, div:active{
